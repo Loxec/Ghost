@@ -1,0 +1,29 @@
+#tick
+
+execute as @a if score @s use_porkchop matches 1.. run tag @s add temp-use_food
+execute as @a if score @s use_raw_beef matches 1.. run tag @s add temp-use_food
+execute as @a if score @s use_raw_cod matches 1.. run tag @s add temp-use_food
+execute as @a if score @s use_cooked_rabbit matches 1.. run tag @s add temp-use_food
+execute as @a if score @s use_cooked_chicken matches 1.. run tag @s add temp-use_food
+execute as @a if score @s use_cookie matches 1.. run tag @s add temp-use_food
+execute as @a if score @s use_pufferfish matches 1.. run tag @s add temp-use_food
+execute as @a if score @s use_cooked_mutton matches 1.. run tag @s add temp-use_food
+execute as @a if score @s use_bread matches 1.. run tag @s add temp-use_food
+execute as @a if score @s use_cooked_cod matches 1.. run tag @s add temp-use_food
+execute as @a if score @s use_mutton matches 1.. run tag @s add temp-use_food
+execute as @a if score @s use_tropical_fish matches 1.. run tag @s add temp-use_food
+execute as @a if score @s use_cooked_porkchop matches 1.. run tag @s add temp-use_food
+execute as @a if score @s use_cooked_beef matches 1.. run tag @s add temp-use_food
+execute as @a if score @s use_sweet_berries matches 1.. run tag @s add temp-use_food
+execute as @a if score @s use_glow_berries matches 1.. run tag @s add temp-use_food
+execute as @a if score @s use_carrot matches 1.. run tag @s add temp-use_food
+execute as @a if score @s use_golden_carrot matches 1.. run tag @s add temp-use_food
+execute as @a if score @s use_potato matches 1.. run tag @s add temp-use_food
+execute as @a if score @s use_beetroot matches 1.. run tag @s add temp-use_food
+execute as @a if score @s use_dried_kelp matches 1.. run tag @s add temp-use_food
+execute as @a if score @s use_baked_potato matches 1.. run tag @s add temp-use_food
+execute as @a if score @s use_pumpkin_pie matches 1.. run tag @s add temp-use_food
+execute as @a if score @s use_apples matches 1.. run tag @s add temp-use_food
+execute as @a if score @s use_golden_apple matches 1.. run tag @s add temp-use_food
+execute as @a if score @s use_enchanted_golden_apple matches 1.. run tag @s add temp-use_food
+execute as @a if score @s use_melon_slice matches 1.. run tag @s add temp-use_food

@@ -1,0 +1,36 @@
+scoreboard objectives add weak_duration dummy {"text":"WeaknessDuration","color":"green"}
+scoreboard objectives add weak_time dummy {"text":"WeaknessTime","color":"green"}
+scoreboard objectives add weak_time_sec dummy {"text":"WeaknessTimeSec","color":"green"}
+scoreboard objectives add weak_sec_accumulator dummy {"text":"WeaknessSecondsAccumulator","color":"green"}
+scoreboard objectives add death_count deathCount {"text":"DeathCount","color":"green"}
+
+scoreboard objectives add use_porkchop minecraft.used:minecraft.porkchop {"text":"UsePorkchop","color":"green"}
+scoreboard objectives add use_raw_beef minecraft.used:minecraft.beef {"text":"UseRawBeef","color":"green"}
+scoreboard objectives add use_raw_cod minecraft.used:minecraft.cod {"text":"UseRawCod","color":"green"}
+scoreboard objectives add use_cooked_rabbit minecraft.used:minecraft.cooked_rabbit {"text":"UseCookedRabbit","color":"green"}
+scoreboard objectives add use_cooked_chicken minecraft.used:minecraft.cooked_chicken {"text":"UseCookedChicken","color":"green"}
+scoreboard objectives add use_cookie minecraft.used:minecraft.cookie {"text":"UseCookie","color":"green"}
+scoreboard objectives add use_pufferfish minecraft.used:minecraft.pufferfish {"text":"UsePufferfish","color":"green"}
+scoreboard objectives add use_cooked_mutton minecraft.used:minecraft.cooked_mutton {"text":"UseCookedMutton","color":"green"}
+scoreboard objectives add use_bread minecraft.used:minecraft.bread {"text":"UseBread","color":"green"}
+scoreboard objectives add use_cooked_cod minecraft.used:minecraft.cooked_cod {"text":"UseCookedCod","color":"green"}
+scoreboard objectives add use_mutton minecraft.used:minecraft.mutton {"text":"UseMutton","color":"green"}
+scoreboard objectives add use_tropical_fish minecraft.used:minecraft.tropical_fish {"text":"UseTropicalFish","color":"green"}
+scoreboard objectives add use_cooked_porkchop minecraft.used:minecraft.cooked_porkchop {"text":"UseCookedPorkchop","color":"green"}
+scoreboard objectives add use_cooked_beef minecraft.used:minecraft.cooked_beef {"text":"UseCookedBeef","color":"green"}
+scoreboard objectives add use_sweet_berries minecraft.used:minecraft.sweet_berries {"text":"UseSweetBerries","color":"green"}
+scoreboard objectives add use_glow_berries minecraft.used:minecraft.glow_berries {"text":"UseGlowBerries","color":"green"}
+scoreboard objectives add use_carrot minecraft.used:minecraft.carrot {"text":"UseCarrot","color":"green"}
+scoreboard objectives add use_golden_carrot minecraft.used:minecraft.golden_carrot {"text":"UseGoldenCarrot","color":"green"}
+scoreboard objectives add use_potato minecraft.used:minecraft.potato {"text":"UsePotato","color":"green"}
+scoreboard objectives add use_beetroot minecraft.used:minecraft.beetroot {"text":"UseBeetroot","color":"green"}
+scoreboard objectives add use_dried_kelp minecraft.used:minecraft.dried_kelp {"text":"UseDriedKelp","color":"green"}
+scoreboard objectives add use_baked_potato minecraft.used:minecraft.baked_potato {"text":"UseBakedPotato","color":"green"}
+scoreboard objectives add use_pumpkin_pie minecraft.used:minecraft.pumpkin_pie {"text":"UsePumpkinPie","color":"green"}
+scoreboard objectives add use_apples minecraft.used:minecraft.apple {"text":"UseApples","color":"green"}
+scoreboard objectives add use_golden_apple minecraft.used:minecraft.golden_apple {"text":"UseGoldenApple","color":"green"}
+scoreboard objectives add use_enchanted_golden_apple minecraft.used:minecraft.enchanted_golden_apple {"text":"UseEnchantedGoldenApple","color":"green"}
+scoreboard objectives add use_melon_slice minecraft.used:minecraft.melon_slice {"text":"UseMelonSlice","color":"green"}
+
+scoreboard objectives add const-max_weak_time dummy {"text":"C-MaxWeaknessTime","color":"red"}
+scoreboard objectives add const-weak_time_sec dummy {"text":"C-WeaknessTimeSec","color":"red"}

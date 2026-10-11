@@ -1,0 +1,30 @@
+{
+  "description": "§cCurse of Sacrifice",
+  "exclusive_set": "#minecraft:curse",
+  "supported_items": "minecraft:leather_chestplate",
+  "primary_items": "minecraft:leather_chestplate",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 4,
+    "per_level_above_first": 3
+  },
+  "anvil_cost": 2,
+  "slots": [
+    "chest"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:block_break_speed",
+        "id": "minecraft:",
+        "amount": 10000,
+        "operation": "add_value"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "description": "Banishing",
+  "supported_items": "#minecraft:swords",
+  "primary_items": "#minecraft:swords",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_cost": {
+    "base": 4,
+    "per_level_above_first": 1
+  },
+  "anvil_cost": 3,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "ghost:vulnerable_ghost/become_vulnerable_ghost"
+        },
+        "enchanted": "attacker",
+        "affected": "victim",
+        "requirements": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_tags": {
+              "all_of": ["ghost"]
+            }
+          }
+        }
+      }
+    ]
+  }
+}
