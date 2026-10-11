@@ -3,17 +3,17 @@
   "exclusive_set": "#minecraft:curse",
   "supported_items": "minecraft:leather_chestplate",
   "primary_items": "minecraft:leather_chestplate",
-  "weight": 1,
+  "weight": 10,
   "max_level": 1,
   "min_cost": {
-    "base": 0,
-    "per_level_above_first": 0
+    "base": 1,
+    "per_level_above_first": 11
   },
   "max_cost": {
-    "base": 4,
-    "per_level_above_first": 3
+    "base": 21,
+    "per_level_above_first": 11
   },
-  "anvil_cost": 2,
+  "anvil_cost": 1,
   "slots": [
     "chest"
   ],

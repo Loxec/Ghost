@@ -1,0 +1,44 @@
+{
+  "description": "Cursing",
+  "supported_items": "minecraft:echo_shard",
+  "primary_items": "minecraft:echo_shard",
+  "weight": 10,
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 11
+  },
+  "max_cost": {
+    "base": 21,
+    "per_level_above_first": 11
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "requirements": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_tags": {
+              "none_of": [
+                "ghost",
+                "vulnerable_ghost",
+                "weak"
+              ]
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "ghost:ghost/become_ghost"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      }
+    ]
+  }
+}

@@ -3,6 +3,7 @@ scoreboard objectives add weak_time dummy {"text":"WeaknessTime","color":"green"
 scoreboard objectives add weak_time_sec dummy {"text":"WeaknessTimeSec","color":"green"}
 scoreboard objectives add weak_sec_accumulator dummy {"text":"WeaknessSecondsAccumulator","color":"green"}
 scoreboard objectives add death_count deathCount {"text":"DeathCount","color":"green"}
+scoreboard objectives add use_carrot_on_a_stick minecraft.used:minecraft.carrot_on_a_stick {"text":"UseCarrotOnAStick","color":"green"}
 
 scoreboard objectives add use_porkchop minecraft.used:minecraft.porkchop {"text":"UsePorkchop","color":"green"}
 scoreboard objectives add use_raw_beef minecraft.used:minecraft.beef {"text":"UseRawBeef","color":"green"}
@@ -34,3 +35,4 @@ scoreboard objectives add use_melon_slice minecraft.used:minecraft.melon_slice {
 
 scoreboard objectives add const-max_weak_time dummy {"text":"C-MaxWeaknessTime","color":"red"}
 scoreboard objectives add const-weak_time_sec dummy {"text":"C-WeaknessTimeSec","color":"red"}
+scoreboard objectives add const-marker_processing_range dummy {"text":"C-MarkerProcessingRange","color":"red"}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_imbue",
+  "source": "stick",
+  "material": "minecraft:prismarine_shard",
+  "result": {
+    "id": "minecraft:carrot_on_a_stick",
+    "components": {
+      "minecraft:item_name": "Wand Of Concentration",
+      "minecraft:item_model": "minecraft:breeze_rod",
+      "minecraft:unbreakable": {},
+      "minecraft:custom_data": {
+        "wand_of_concentration": true
+      },
+      "minecraft:enchantments": {
+        "ghost:wand_of_concentration": 1
+      }
+    },
+    "count": 1
+  }
+}

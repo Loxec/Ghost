@@ -2,17 +2,17 @@
   "description": "Banishing",
   "supported_items": "#minecraft:swords",
   "primary_items": "#minecraft:swords",
-  "weight": 1,
+  "weight": 10,
   "max_level": 1,
   "min_cost": {
     "base": 1,
-    "per_level_above_first": 1
+    "per_level_above_first": 11
   },
   "max_cost": {
-    "base": 4,
-    "per_level_above_first": 1
+    "base": 21,
+    "per_level_above_first": 11
   },
-  "anvil_cost": 3,
+  "anvil_cost": 1,
   "slots": [
     "mainhand"
   ],

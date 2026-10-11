@@ -1,0 +1,1 @@
+particle ash ~ ~ ~ 1 1 1 1 50 force
