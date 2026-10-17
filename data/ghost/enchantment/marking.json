@@ -1,0 +1,42 @@
+{
+  "description": "Marking",
+  "supported_items": "gold_ingot",
+  "primary_items": "gold_ingot",
+  "weight": 10,
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 11
+  },
+  "max_cost": {
+    "base": 21,
+    "per_level_above_first": 11
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "ghost:marked/mark"
+        },
+        "enchanted": "attacker",
+        "affected": "victim",
+        "requirements": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_tags": {
+              "none_of": [
+                "marked"
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

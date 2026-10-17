@@ -1,0 +1,44 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        "book",
+        "lapis_lazuli"
+    ],
+    "result": {
+        "id": "minecraft:written_book",
+        "components": {
+            "minecraft:written_book_content": {
+                "pages": [
+                    {
+                        "text": "Rite Of Conjuring: ingredients \n \n Ingredients: \n 4 soul sand \n 4 crying obsidian \n 1 mycelium \n 1 wither rose \n 4 soul lantern",
+                        "type": "text"
+                    },
+                    {
+                        "text": "Rite Of Conjuring: \n setup \n \n - Place mycelium \n - Place soul sand around mycelium \n - Place crying obsidian on the corners \n - Place wither rose on mycelium \n - Place soul lantern on soul sand",
+                        "type": "text"
+                    },
+                    {
+                        "text": "Rite Of Conjuring: \n execution \n \n - Enchant a Leather Chestplate with Curse Of Sacrifice \n - Wear the Leather Chestplate \n - Jump on the wither rose",
+                        "type": "text"
+                    },
+                    {
+                        "text": "Cursing \n \n Cursing is a new enchantment applied to echo shards, it let you transform anyone into a ghost",
+                        "type": "text"
+                    },
+                    {
+                        "text": "Hell Rod \n \n The Hell Rod is a wand that let you remove your marks for now \n \n To craft it, imbue a stick with 8 nether wart",
+                        "type": "text"
+                    }
+                ],
+                "title": "Book Of Rituals",
+                "author": "Loxec",
+                "generation": 1,
+                "resolved": true
+            },
+            "minecraft:custom_data": {
+                "book_of_rituals": true
+            }
+        },
+        "count": 1
+    }
+}

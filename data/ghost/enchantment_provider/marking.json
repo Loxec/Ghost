@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:by_cost",
+  "enchantments": "ghost:marking",
+  "cost": 4
+}

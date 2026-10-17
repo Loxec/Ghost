@@ -1,0 +1,2 @@
+execute unless items entity @s weapon.* gold_ingot[minecraft:custom_data={blessed_gold_ingot:1b}] run tag @s remove blessed
+execute if entity @s[tag=!ghost,tag=!weak,tag=!vulnerable_ghost,tag=revenant] if items entity @s weapon.* gold_ingot[minecraft:custom_data={blessed_gold_ingot:1b}] run function ghost:as_blessed

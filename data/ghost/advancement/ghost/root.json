@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:wither_rose",
+            "count": 1
+        },
+        "title": "Ghost And Hunter",
+        "description": "",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "background": "minecraft:block/netherite_block"
+    },
+    "criteria": {
+        "join_a_world": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

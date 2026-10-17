@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "ghost:ghost_hunter_post",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 25,
+        "separation": 12,
+        "salt": 43890122
+    }
+}

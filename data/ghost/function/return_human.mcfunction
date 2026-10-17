@@ -2,6 +2,7 @@ execute if entity @s[tag=ghost] run function ghost:return_human_fghost
 execute if entity @s[tag=vulnerable_ghost] run function ghost:return_human_fvghost
 
 tag @s add weak
+execute unless entity @s[tag=!revenant] run tag @s add revenant
 
 tellraw @s {"text":"You are weak, eat some food","color":"red"}
 playsound minecraft:event.mob_effect.bad_omen master @s ~ ~ ~ 1 1

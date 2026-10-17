@@ -1,0 +1,19 @@
+{
+    "parent": "ghost:ghost/ghost_way",
+    "display": {
+        "icon": {
+            "id": "minecraft:totem_of_undying",
+            "count": 1
+        },
+        "title": "Might be the end..",
+        "description": "Become a vulnerable ghost",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "none": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        "book",
+        "#minecraft:swords"
+    ],
+    "result": {
+        "id": "minecraft:written_book",
+        "components": {
+            "minecraft:written_book_content": {
+                "pages": [
+                    {
+                        "text": "Rite Of Repulsion: ingredients \n \n Ingredients: \n 1 lapis lazuli block \n 1 glowing item frame \n 1 echo shard",
+                        "type": "text"
+                    },
+                    {
+                        "text": "Rite Of Repulsion: \n setup \n \n - Place the lapis lazuli block \n - Place the glowing item frame on top of the lapis lazuli block \n - Enchant the echo shard with cursing \n - Place it in the glowing item frame \n - Click the lapis lazuli block with the Holy Wand",
+                        "type": "text"
+                    },
+                    {
+                        "text": "Banishing \n \n Banishing is a new enchantment applied to any swords, when you hit a ghost with it, the ghost become vulnerable",
+                        "type": "text"
+                    },
+                    {
+                        "text": "Holy Wand \n \n The Holy Wand is a wand that help you for the Rite Of Repulsion for now \n \n To craft it, imbue a stick with 8 prismarine shards",
+                        "type": "text"
+                    },
+                    {
+                        "text": "Rite Of Blessing: ingredients \n \n Ingredients: \n 5 gold block \n 4 redstone block \n 1 gold ingot",
+                        "type": "text"
+                    },
+                    {
+                        "text": "Rite Of Blessing: \n setup \n \n - Place a gold block and 4 redstone block around it \n - Place gold blocks on the corners \n - Rename the gold ingot \"expulsio spectri\" \n - Throw the gold ingot at the center of the hotel",
+                        "type": "text"
+                    }
+                ],
+                "title": "Book Of Hunters",
+                "author": "Loxec",
+                "generation": 1,
+                "resolved": true
+            },
+            "minecraft:custom_data": {
+                "book_of_hunters": true
+            }
+        },
+        "count": 1
+    }
+}

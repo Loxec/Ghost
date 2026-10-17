@@ -6,3 +6,5 @@ attribute @s fall_damage_multiplier base reset
 attribute @s name_tag_distance base reset
 attribute @s oxygen_bonus base reset
 attribute @s burning_time base reset
+
+advancement grant @s only ghost:ghost/might_be_the_end

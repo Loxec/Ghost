@@ -1,28 +1,34 @@
 # Changelog:
----
 
-- remove the resistance effect of the ghost
+## Updated the *"Book Of Hunters"*
 
-- Added enchantment Cursing that apply to echo shard, when someone get hit by an echo shard with cursing, he become a ghost
+- The *"Book Of Hunters"* now show you:
 
-- Enchanting table now supports the enchants
+    * The Rite of Blessing
 
-- Overhauled those loot tables to include the Cursing enchanted book:
-    * archaeology/desert_pyramid
-    * archaeology/desert_well
-    * archaeology/ocean_ruin_cold
-    * archaeology/ocean_ruin_warm
-    * archaeology/trail_ruins_common
-    * archaeology/trail_ruins_rare
-    * chests/buried_treasure
-    * barrels/abandoned_camp_barrel
+## Added Advancement
 
-- Added a new **Wand Of Concentration**
+- Added following advancment :
 
-- Added a recipe for the **Wand Of Concentration**
+    * "Ghost Way" : Craft the Book Of Rituals
+    * "Vanished!" : Become a ghost
+    * "Might be the end.." :  Become a vulnerable ghost
+    * "Hunter" : Craft the Book Of Hunters
+    * "Cool Camp!" : Find a Ghost Hunter Post
+    * "Interesting.." : Craft the holy wand
+    * "Look like the nether" : Craft the Hell Rod
+    * "No more ghost" : Be marked
 
-- Added a new Rite Of Repulsion wich damage each ghost in a 20 block radius
+## Fixes
 
-- Ghost now become vulnerable ghost on death
+- Holy Wand now have proper data
 
-- Updated the **Book Of Rituals**
+- Ghost now have the revenant tag when they heal
+
+## Extras
+
+- The Hell Rod now produce a sound when used
+
+- The Holy Wand now produce a sound when used
+
+- The *"Book Of Hunters"* now show the correct rituals

@@ -1,0 +1,19 @@
+{
+    "parent": "ghost:ghost/hunter",
+    "display": {
+        "icon": {
+            "id": "minecraft:barrier",
+            "count": 1
+        },
+        "title": "No more ghost..",
+        "description": "Be marked",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "none": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

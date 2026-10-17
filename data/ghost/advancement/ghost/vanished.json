@@ -1,0 +1,24 @@
+{
+    "parent": "ghost:ghost/ghost_way",
+    "display": {
+        "icon": {
+            "id": "minecraft:potion",
+            "components": {
+                "minecraft:potion_contents": {
+                    "potion": "minecraft:invisibility"
+                }
+            },
+            "count": 1
+        },
+        "title": "Vanished!",
+        "description": "Become a ghost",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "none": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

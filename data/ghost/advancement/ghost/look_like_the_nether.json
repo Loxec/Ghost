@@ -1,0 +1,31 @@
+{
+    "parent": "ghost:ghost/ghost_way",
+    "display": {
+        "icon": {
+            "id": "minecraft:blaze_rod",
+            "count": 1
+        },
+        "title": "Look like the nether..",
+        "description": "Craft the Hell Rod",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:carrot_on_a_stick",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "hell_rod": true
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

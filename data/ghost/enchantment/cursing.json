@@ -27,7 +27,8 @@
               "none_of": [
                 "ghost",
                 "vulnerable_ghost",
-                "weak"
+                "weak",
+                "marked"
               ]
             }
           }

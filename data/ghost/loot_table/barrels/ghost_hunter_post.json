@@ -1,0 +1,149 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_apple",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:enchanted_golden_apple"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:echo_shard",
+                    "weight": 30
+                },
+                {
+                    "type": "minecraft:item",
+                    "modifier": {
+                        "type": "minecraft:set_enchantments",
+                        "enchantments": {
+                            "ghost:curse_of_sacrifice": 1
+                        }
+                    },
+                    "name": "minecraft:leather_chestplate",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 5,
+                    "modifier": {
+                        "type": "minecraft:set_enchantments",
+                        "enchantments": {
+                            "ghost:cursing": 1
+                        }
+                    }
+                },
+                {
+                    "type": "minecraft:empty",
+                    "weight": 5
+                }
+            ],
+            "rolls": 1
+        },
+        {
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "modifier": {
+                        "type": "minecraft:set_enchantments",
+                        "enchantments": {
+                            "ghost:banishing": 1
+                        }
+                    },
+                    "name": "minecraft:iron_sword",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "modifier": {
+                        "type": "minecraft:set_count",
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "max": 3,
+                            "min": 1
+                        }
+                    },
+                    "name": "minecraft:enchanting_table",
+                    "weight": 5
+                },
+                {
+                    "type": "minecraft:item",
+                    "modifier": {
+                        "type": "minecraft:set_count",
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "max": 9,
+                            "min": 4
+                        }
+                    },
+                    "name": "minecraft:prismarine_shard",
+                    "weight": 5
+                },
+                {
+                    "type": "minecraft:item",
+                    "modifier": {
+                        "type": "minecraft:set_count",
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "max": 9,
+                            "min": 4
+                        }
+                    },
+                    "name": "minecraft:obsidian",
+                    "weight": 5
+                },
+                {
+                    "type": "minecraft:item",
+                    "modifier": {
+                        "type": "minecraft:set_count",
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "max": 2,
+                            "min": 1
+                        }
+                    },
+                    "name": "minecraft:diamond",
+                    "weight": 3
+                },
+                {
+                    "type": "minecraft:item",
+                    "modifier": {
+                        "type": "minecraft:set_count",
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "max": 6,
+                            "min": 3
+                        }
+                    },
+                    "name": "minecraft:lapis_block",
+                    "weight": 15
+                },
+                {
+                    "type": "minecraft:item",
+                    "modifier": {
+                        "type": "minecraft:set_count",
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "max": 4,
+                            "min": 2
+                        }
+                    },
+                    "name": "minecraft:amethyst_shard",
+                    "weight": 10
+                }
+            ],
+            "rolls": {
+                "type": "minecraft:uniform",
+                "max": 4,
+                "min": 2
+            }
+        }
+    ],
+    "random_sequence": "minecraft:chests/abandoned_mineshaft"
+}

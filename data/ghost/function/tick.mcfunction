@@ -1,5 +1,9 @@
 #tick
 
+execute as @a at @s run function ghost:as_player
+execute as @a[tag=marked] at @s run function ghost:marked/as_marked
+execute as @e[type=item] at @s run function ghost:as_items
+
 scoreboard players set @a const-max_weak_time 2400
 scoreboard players set @a const-weak_time_sec 120
 scoreboard players set @a const-marker_processing_range 20
